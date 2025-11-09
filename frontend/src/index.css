@@ -1,0 +1,14 @@
+/* src/index.css */
+body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f7f7f7; }
+.topbar { background: #5b3e96; color: #fff; padding:12px 20px; display:flex; justify-content:space-between; align-items:center; }
+.topbar a { color:#fff; margin-right:12px; text-decoration:none; }
+.link-like { background:none; border:none; color:#fff; cursor:pointer; margin-left:12px; }
+.page { padding:20px; max-width:1000px; margin:0 auto; }
+.auth-container { padding:30px; max-width:420px; margin:40px auto; background:#fff; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.08); }
+.auth-form input { display:block; width:100%; padding:8px 10px; margin:8px 0; }
+.auth-form button { padding:8px 12px; margin-top:8px; }
+.grid { display:flex; flex-wrap:wrap; gap:12px; margin-top:12px; }
+.sweet-card { background:#fff; padding:12px; width:220px; border-radius:6px; box-shadow:0 1px 6px rgba(0,0,0,0.06); }
+.card-actions { margin-top:10px; display:flex; gap:8px; }
+.admin-form input { display:block; margin:6px 0; padding:8px; width:300px; }
+.danger { background:#e74c3c; color:#fff; border:none; padding:6px; cursor:pointer; }
